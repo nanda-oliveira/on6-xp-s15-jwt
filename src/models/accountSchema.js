@@ -16,12 +16,12 @@ const AccountSchema = new Schema({
         required: true,
     },
     email: {
-        type : String,
-        required: true
-    },
-    senha : {
         type: String,
-        required: true
+        required: true,
+    },
+    senha: {
+        type: String,
+        required: true,
     }
 });
 
